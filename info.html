@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<!--
+	W3C Validation :
+	Document checking completed. No errors or warnings to show.
+	Used the HTML parser.
+	Total execution time 8 milliseconds.
+-->
+<html lang="nl-NL">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Molen De Korenaer, openingstijden en contactgegevens.">
+	<meta name="keywords" content="Molen, Korenaer, Openingstijden, contactgegevens" >
+	<title>De Korenaer</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/nha.css">
+</head>
+<body>
+<header>
+	<div class="toplogo">
+		<img src="./images/logo.png" alt="" />
+	</div>
+	<nav class="topmenu">
+		<a href="index.html" target="_self">De Korenaer</a>
+		<a href="gallerij.html" target="_self">Gallerij</a>
+		<a href="info.html" target="_self">Informatie</a>
+	</nav>
+</header>
+<main>
+	<!-- We gebruiken een DIV zodat we in een section geen Header verplicht zijn -->
+	<div class="imageheader">
+		<img src="./images/demolen.jpg" alt="De Molen" title="De Molen" />
+	</div>
+	<section class="info-content">
+		<div id="firstitem" class="content">
+			<header><h1>Waar staat de Korenaer?</h1></header>
+			<p>
+			Molen de Korenaer<br>
+			Margaretha van Hennebergweg 4<br>
+			2552 BA ’s-Gravenhage<br>
+			</p>
+		</div>
+	</section>
+	<section class="info-content">
+		<div id="seconditem" class="content">
+			<header><h2>Openingstijden</h2></header>
+			<p>
+			De molen is geopend op donderdag en zaterdag<br>
+			van 12:00 tot 16:00 uur.
+			</p>
+		</div>
+	</section>
+	<section class="video-content">
+		<div id="thirditem" class="content">
+		<header><h2>Video's over de molen: </h2></header>
+			<iframe class="ytvideo" width="500" height="290" src="https://www.youtube.com/embed/FjNZl9QBuR8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe class="ytvideo" width="500" height="290" src="https://www.youtube.com/embed/-fAPoPvWqeM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</section>
+
+</main>
+<!-- de aside even uitgeschakeld ivm de W3C validatie (Failed als deze geen content heeft)
+<aside>
+	<section class="side-content">
+		<div class="content">
+			<article>
+				<header><h3></h3></header>
+			</article>
+		</div>
+	</section>
+</aside>
+-->
+<!-- Javascript inladen, scripts altijd onderaan de pagina als laatste inladen -->
+<script src="assets/js/nha.js"></script>
+<footer>
+	<div class="footer-content">
+		<span class="copyright-notice">&copy; 2022 - NHA Cursus Front-End Developer - Les 9</span>
+	</div>
+</footer>
+</body>
+</html>

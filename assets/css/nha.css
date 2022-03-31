@@ -1,0 +1,141 @@
+body {
+	margin:0;
+	padding: 0px;
+	font-size:1em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+	width:1200px;
+	margin: 0 auto !important;
+	text-align:center;
+	padding:20px;
+}
+
+section.info-content {
+    height: 120px;
+}
+
+.content {
+	width:1200px;
+	margin: 0 auto !important;
+	text-align:center;
+	padding:20px;
+}
+
+.content p {
+	text-align:left;
+}
+
+hr {
+	margin: 20px 0 20px 0;
+	border:#ccc 1px dashed;
+
+}
+h1,h2,h3 {
+	font-style: italic;
+	text-align:left;
+}
+
+.site-iframe {
+	width:1200px;
+	height:1000px;
+	margin-bottom:50px;
+}
+
+/* NAVBAR + Toplogo */
+.toplogo {
+	margin:0 0 0 20px;
+}
+.topmenu {
+  overflow: hidden;
+  background-color: #554c95;
+}
+
+.topmenu a {
+  float: left;
+  color: #e4cdb1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight:bold;
+}
+
+.topmenu a:hover {
+  background-color: #e4cdb1;
+  color: #554c95;
+}
+
+.topmenu a.active {
+  background-color: #FF66CC;
+  color: white;
+}
+
+.imageblock {
+	text-align:center;
+}
+.imageblock img{
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin:2px;
+	width:300px;
+	height:auto;
+	box-shadow: #333 2px 2px 15px;
+}
+.imageblock img:hover{
+	box-shadow: #000 2px 2px 10px;
+}
+
+/* Informatie pagina */
+.video-content {
+	display:flex;
+}
+
+.ytvideo {
+	border:0px;
+	margin-right:20px;
+	margin-bottom:100px;
+}
+
+audio {
+	margin-bottom:100px;
+}
+
+.imageheader {
+	text-align:center;
+}
+.imageheader img {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    width: 1200px;
+    height: auto;
+    box-shadow: #333 2px 2px 15px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+	display:block;
+	position:fixed;
+	bottom:0;
+	right:0;
+	left:0;
+	width:100%;
+	margin:50px 0 0 0;
+}
+
+footer .footer-content {
+	background-color: #554c95;
+	height:30px;
+	padding:10px;
+	line-height: 30px;
+	text-align:right;
+}
+
+footer .footer-content .copyright-notice{
+	color: #e4cdb1;
+	font-weight:bold;
+}
